@@ -1,4 +1,4 @@
-//
+//find the sums of two matrix then print them out as 2d list
 package main
 
 import "fmt"
