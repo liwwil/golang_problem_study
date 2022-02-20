@@ -4,19 +4,19 @@ package main
 import "fmt"
 
 func main() {
-	matrix1 := [][]int{
+	matrix1 := [][]int{ //declare matrix1
 		{1, 2, 3},
 		{4, 5, 6},
 		{7, 8, 9},
 	}
-	matrix2 := [][]int{
+	matrix2 := [][]int{ //declare matrix2
 		{1, 2, 3},
 		{1, 2, 3},
 		{1, 2, 3},
 	}
-	n_rows := len(matrix1)
+	n_rows := len(matrix1) //number of row
 	n_columns := len(matrix1[0])
-	sum_matrix := [][]int{
+	sum_matrix := [][]int{ // Initial values of sum_matrix
 		{0, 0, 0},
 		{0, 0, 0},
 		{0, 0, 0},
